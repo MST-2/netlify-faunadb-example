@@ -12,9 +12,9 @@ const AppHeader = (props) => {
           <div className='app-left-nav'>
             <img src={logo} className='app-logo' alt='logo' />
             <div className='app-title-text'>
-              <h1 className='app-title'>Netlify + Fauna DB</h1>
+              <h1 className='app-title'>Magnus Todo</h1>
               <p className='app-intro'>
-                Using FaunaDB & Netlify functions
+                Create a todo, easily.
               </p>
             </div>
           </div>
@@ -32,7 +32,7 @@ const AppHeader = (props) => {
               rel='noopener noreferrer'
               href='https://github.com/netlify/netlify-faunadb-example'>
               <img className='github-icon' src={github} alt='view repo on github' />
-              View the source Luke
+              View the source code
             </a>
           </div>
         </div>
